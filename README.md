@@ -1,4 +1,4 @@
-<center> # Quadkopter_Otonom_Ucus_Yazilimi </center>
+                                                                                     # Quadkopter_Otonom_Ucus_Yazilimi
 
 ##### ByteSpark Robotik firmamızın temellerinin atıldığı “Robotik ve Otomasyon AR-GE Süreci” kapsamında, ekibimiz tarafından, 2020-2022 yılları arasında 3 versiyondan oluşmak üzere “Döner Kanatlı Hava Aracı Otonom Uçuş Kontrol Yazılımı” geliştirilmiştir. Otonom Uçuş Kontrol Yazılımlarının geliştirilme amacı, hali hazırda piyasada bulunan mevut uçuş kontrol yazılımlarının, görece daha basitleştirilmiş ve amaca uygun hale getirilmiş yerli alternatifinin piyasaya sürülmesidir.
 

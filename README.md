@@ -1,40 +1,25 @@
 # Quadkopter_Otonom_Ucus_Yazilimi
 
-### ByteSpark Robotik firmamızın temellerinin atıldığı “Robotik ve Otomasyon AR-GE Süreci”
-kapsamında, ekibimiz tarafından, 2020-2022 yılları arasında 3 versiyondan oluşmak üzere “Döner
-Kanatlı Hava Aracı Otonom Uçuş Kontrol Yazılımı” geliştirilmiştir. Otonom Uçuş Kontrol Yazılımlarının
-geliştirilme amacı, hali hazırda piyasada bulunan mevut uçuş kontrol yazılımlarının, görece daha
-basitleştirilmiş ve amaca uygun hale getirilmiş yerli alternatifinin piyasaya sürülmesidir.
+##### ByteSpark Robotik firmamızın temellerinin atıldığı “Robotik ve Otomasyon AR-GE Süreci” kapsamında, ekibimiz tarafından, 2020-2022 yılları arasında 3 versiyondan oluşmak üzere “Döner Kanatlı Hava Aracı Otonom Uçuş Kontrol Yazılımı” geliştirilmiştir. Otonom Uçuş Kontrol Yazılımlarının geliştirilme amacı, hali hazırda piyasada bulunan mevut uçuş kontrol yazılımlarının, görece daha basitleştirilmiş ve amaca uygun hale getirilmiş yerli alternatifinin piyasaya sürülmesidir.
 
 
-### Otonom Uçuş Yazılımı, ARM tabanlı 32 Bit STM32F407VGT6 mikrodenetleyicisi üzerinde, STM32-
-CUBE IDE, U-VISION 4: KEIL ve Visual Studio Code ortamlarında geliştirilmiştir. Çalışmalar süresince;
-STM32 CUBE IDE Debuger, STM Studio, Cube Monitor ve firmamıza ait yer istasyonu yazılımı
-üzerinden debug, gözlem ve geliştirime işlemleri gerçekleştirilmiştir.
+##### Otonom Uçuş Yazılımı, ARM tabanlı 32 Bit STM32F407VGT6 mikrodenetleyicisi üzerinde, STM32- CUBE IDE, U-VISION 4: KEIL ve Visual Studio Code ortamlarında geliştirilmiştir. Çalışmalar süresince; STM32 CUBE IDE Debuger, STM Studio, Cube Monitor ve firmamıza ait yer istasyonu yazılımı üzerinden debug, gözlem ve geliştirime işlemleri gerçekleştirilmiştir.
 
-### Yazılımın geliştirilme süreci için, ekibimiz tarafından 2 ayrı insansız hava aracı test düzeneği
-geliştirilmiştir. Test düzeneklerinin amacı, insansız hava araçlarının 3 serbestlik dereceli uzayda
-testlerinin gerçekleştirilebilmesi için güvenli ortam oluşturmak ve güç kaynağına bağlı testler
-gerçekleştirebilmektir. Geliştirilen bu insansız hava aracı test düzenekleri sayesinde yazılım tepki
-sonuçları, güvenli ortamda testlere sokularak dış çıktıları gözlemlenmiştir. Geliştirilen test
-düzeneklerinin 1. Versiyonu, ekibimiz üyesi Hüseyin Can Küçüksezer tarafından makale halinde
-yayımlanmıştır. 
+##### Yazılımın geliştirilme süreci için, ekibimiz tarafından 2 ayrı insansız hava aracı test düzeneği geliştirilmiştir. Test düzeneklerinin amacı, insansız hava araçlarının 3 serbestlik dereceli uzayda testlerinin gerçekleştirilebilmesi için güvenli ortam oluşturmak ve güç kaynağına bağlı testler gerçekleştirebilmektir. Geliştirilen bu insansız hava aracı test düzenekleri sayesinde yazılım tepki sonuçları, güvenli ortamda testlere sokularak dış çıktıları gözlemlenmiştir. Geliştirilen test düzeneklerinin 1. Versiyonu, ekibimiz üyesi Hüseyin Can Küçüksezer tarafından makale halinde yayımlanmıştır. 
 
 [Buraya tıklayarak ilgili makalenin tamamına erişebilirsiniz.]([https://recepaydogdu.notion.site/Object-Detection-with-OpenCV-102a12f84a0b4122a0bc3d1da30bc48c](https://dergipark.org.tr/tr/download/article-file/1786532)https://dergipark.org.tr/tr/download/article-file/1786532)
 
-#### (Gerçekleştirilen testler sırasında; üretilen düzeneklerin mekanik kayıpları, matematiksel analizlere
+##### (Gerçekleştirilen testler sırasında; üretilen düzeneklerin mekanik kayıpları, matematiksel analizlere
 dahil edilmiştir.)
 
 
-#### 3 Serbestlik dereceli, ahşap malzemeden üretilmiş olan insansız hava aracı
-test düzeneği yapısı.
+###### 3 Serbestlik dereceli, ahşap malzemeden üretilmiş olan insansız hava aracı test düzeneği yapısı.
 https://github.com/ByteSparkYazilim/Quadkopter_Otonom_Ucus_Yazilimi/assets/145047961/7ab37f51-29ea-4004-95fb-82121700979f
 
-#### Ekibimizin üretmiş olduğu HUMA-H1 hegzakopter insansız hava aracının,
-KK2 uçuş kontrol kartı ile test mekanizması üzerinde kontrol edilmesi.
+##### Ekibimizin üretmiş olduğu HUMA-H1 hegzakopter insansız hava aracının, KK2 uçuş kontrol kartı ile test mekanizması üzerinde kontrol edilmesi.
 https://github.com/ByteSparkYazilim/Quadkopter_Otonom_Ucus_Yazilimi/assets/145047961/0531f59b-5da5-4962-8dbb-eed7e80ec0d9
 
-### Otonom Uçuş Kontrol Yazılımı Üzerinde Bulunan Başlıca Algoritmalar:
+##### Otonom Uçuş Kontrol Yazılımı Üzerinde Bulunan Başlıca Algoritmalar:
 
 * Saniyede 100 İşlem Kapasiteli Denge Kontrol Algoritması
 * Saniyede 20 İşlem Kapasiteli İrtifa Kontrol Algoritması
@@ -47,9 +32,7 @@ https://github.com/ByteSparkYazilim/Quadkopter_Otonom_Ucus_Yazilimi/assets/14504
 Safe Kontrol Algoritması
 * Otonom Kalkış/İniş Algoritması
 
-### İHA üzerinde bulunan fırçasız DC motorların kontrolü için ESC (Elektronik Hız Kontrolcüsü) modülleri
-kullanılmıştır. Kullanılan ESC’ler, 50Hz PWM sinyalleri ile kontrol edilmekte olup, doluluk oranlarının
-değişimine bağlı olarak çıkış fazlarına düşen I/O hızlarını değiştirmektedir.
+##### İHA üzerinde bulunan fırçasız DC motorların kontrolü için ESC (Elektronik Hız Kontrolcüsü) modülleri kullanılmıştır. Kullanılan ESC’ler, 50Hz PWM sinyalleri ile kontrol edilmekte olup, doluluk oranlarının değişimine bağlı olarak çıkış fazlarına düşen I/O hızlarını değiştirmektedir.
 
 ## Motor Sürme Fonksiyonu:
 
@@ -76,9 +59,7 @@ __HAL_TIM_SET_COMPARE(&amp;htim3,TIM_CHANNEL_4,motor2);// 2 numara
 }
 ```
 
-### Yazılımda bulunan ARM_KONTROL değişkeni ile, motorlara güç verilip verilmeyeceği
-belirlenmektedir. Arm kontrol fonksiyonu, insansız hava aracının güvenli kullanımı için oldukça
-önemli bir unsurdur.
+##### Yazılımda bulunan ARM_KONTROL değişkeni ile, motorlara güç verilip verilmeyeceği belirlenmektedir. Arm kontrol fonksiyonu, insansız hava aracının güvenli kullanımı için oldukça önemli bir unsurdur.
 
 ## Arm Kontrol Fonksiyonu:
 ```python
@@ -123,16 +104,9 @@ KumandaSayac=0;
 }
 ```
 
-### Arm Kontrol fonksiyonu, RC kumanda üzerinden yapılan belirli komut hareketlerine göre bir sayaç
-sayarak, belirli süre sonunda motorları sürecek timer kesmesinin aktifleştirilmesini sağlamaktır.
-Belirlenen süre boyunca RC kumandadan ARM komutu gönderilmediği takdirde, motorları sürecek
-timer fonksiyonu pasif durumda kalmaktadır. Ayrıca DİSARM durumda, insansız hava aracının
-bulunduğu yüzeye göre kendi denge kalibrasyonunu gerçekleştirmesi, bu fonksiyon içerisinde
-sağlanmaktadır.
+##### Arm Kontrol fonksiyonu, RC kumanda üzerinden yapılan belirli komut hareketlerine göre bir sayaç sayarak, belirli süre sonunda motorları sürecek timer kesmesinin aktifleştirilmesini sağlamaktır. Belirlenen süre boyunca RC kumandadan ARM komutu gönderilmediği takdirde, motorları sürecek timer fonksiyonu pasif durumda kalmaktadır. Ayrıca DİSARM durumda, insansız hava aracının bulunduğu yüzeye göre kendi denge kalibrasyonunu gerçekleştirmesi, bu fonksiyon içerisinde sağlanmaktadır.
 
-İnsansız hava aracının motorlarına gönderilecek PWM sinyallerinin belirlenmesi için PID kontrol
-gerçekleştirilmektedir. Kontrol algoritmasından çıkan değerlerin motorlara gönderilmeden önce
-hesaplanarak toparlanması, Motor_Güç_Değeri fonksiyonları aracılığıyla sağlanmaktadır.
+##### İnsansız hava aracının motorlarına gönderilecek PWM sinyallerinin belirlenmesi için PID kontrol gerçekleştirilmektedir. Kontrol algoritmasından çıkan değerlerin motorlara gönderilmeden önce hesaplanarak toparlanması, Motor_Güç_Değeri fonksiyonları aracılığıyla sağlanmaktadır.
 
 ## Motor Güç Değeri Fonksiyonu:
 ```python
@@ -150,19 +124,11 @@ return motor1_guc_cikis;
 }
 ```
 
-### Kontrol algoritmasından gelen matematiksel sonuçların, ESC’lerin sürüleceği frekansa ait doluluk
-oranı sınırlarının içerisinde kalması için, çıktılara sınırlama getirilmiştir.
+### Kontrol algoritmasından gelen matematiksel sonuçların, ESC’lerin sürüleceği frekansa ait doluluk oranı sınırlarının içerisinde kalması için, çıktılara sınırlama getirilmiştir.
 
-RC kumanda üzerinden okunan ve YAW eksenini kontrol eden kontrol çubuğundan gelen verilere,
-yazılımsal olarak ölü bölge tanımlanmıştır. Ölü bölge tanımı yapılmasının sebebi, insansız hava
-aracının YAW ekseninde 3-5 derece arasında normal kabul edilebilir sapmaları olmasıdır. (Kontrol
-algoritması kullanılmadığı durumlarda) Bu sapmalar, PID kontrol algoritmasında çok yüksek D-kick
-durumları ortaya çıkartmaktadır. Bu sebeple RC kumanda ve Manyetometre sensörü arasında oluşan
-hassas farklar, matematiksel kontrol yöntemlerine dahil edilmemiştir. Ölü bölgenin hazırlanma
-sebebi, bu değerlerin devreden çıkartılmasıdır.
+##### RC kumanda üzerinden okunan ve YAW eksenini kontrol eden kontrol çubuğundan gelen verilere,yazılımsal olarak ölü bölge tanımlanmıştır. Ölü bölge tanımı yapılmasının sebebi, insansız hava aracının YAW ekseninde 3-5 derece arasında normal kabul edilebilir sapmaları olmasıdır. (Kontrolalgoritması kullanılmadığı durumlarda) Bu sapmalar, PID kontrol algoritmasında çok yüksek D-kick durumları ortaya çıkartmaktadır. Bu sebeple RC kumanda ve Manyetometre sensörü arasında oluşan hassas farklar, matematiksel kontrol yöntemlerine dahil edilmemiştir. Ölü bölgenin hazırlanma sebebi, bu değerlerin devreden çıkartılmasıdır.
 
-Uçuş Kontrol Kartı çevresel birimlerinden alınan verilere Kalman filtresi uygulanarak parazitlerin
-giderilmesi ve hassasiyetin artırılması sağlanmıştır.
+##### Uçuş Kontrol Kartı çevresel birimlerinden alınan verilere Kalman filtresi uygulanarak parazitlerin giderilmesi ve hassasiyetin artırılması sağlanmıştır.
 
 ## BME280 Barometrik Sensör İçin Kalman Filtresi Uygulaması:
 ```python
@@ -366,26 +332,15 @@ return z;
 
 ```
 
-### PID algoritması; temel olarak RC kumanda ve üzerinde yer alan 3 serbestlik dereceli +- 9DOF IMU
-sensörünün verilerinin kıyaslanması ile çalıştırılmaktadır. RC kumandadan gelen yönelim değerleri ile
-IMU verileri kıyaslanarak, insansız hava aracının olması gereken konum belirlenir. RC kumandaya
-müdahale edilmediği takdirde gelen veriler, insansız hava aracının asılı kalacağı değerler olarak
-belirlenmiş; +-15 derece yönelim açısı alacak şekilde optimize edilmiştir. YAW eksenindeki hareketin
-kontrolü için ise ivme kontrolü yapılarak PID algoritması hazırlanmıştır. Bu noktada kullanılan ölü
-bölge sayesinde, yüksek ivmeli değerler dışında tepki verilmemesi sağlanarak stabil uçuş elde
-edilmiştir. İrtifa kontrolü için hazırlanan sistem, BME280 barometrik sensöründen alınan irtifa
-verilerine göre hesaplanmakta olup, PD kontrol yöntemiyle hazırlanmıştır.
+##### PID algoritması; temel olarak RC kumanda ve üzerinde yer alan 3 serbestlik dereceli +- 9DOF IMU sensörünün verilerinin kıyaslanması ile çalıştırılmaktadır. RC kumandadan gelen yönelim değerleri ile IMU verileri kıyaslanarak, insansız hava aracının olması gereken konum belirlenir. RC kumandaya müdahale edilmediği takdirde gelen veriler, insansız hava aracının asılı kalacağı değerler olarak belirlenmiş; +-15 derece yönelim açısı alacak şekilde optimize edilmiştir. YAW eksenindeki hareketin kontrolü için ise ivme kontrolü yapılarak PID algoritması hazırlanmıştır. Bu noktada kullanılan ölü bölge sayesinde, yüksek ivmeli değerler dışında tepki verilmemesi sağlanarak stabil uçuş elde edilmiştir. İrtifa kontrolü için hazırlanan sistem, BME280 barometrik sensöründen alınan irtifa verilerine göre hesaplanmakta olup, PD kontrol yöntemiyle hazırlanmıştır.
 
-Uçuş Kontrol Yazılımında Bulunan Çevresel Bağlantı Elemanları ve Protokolleri:
-IMU (Inertial Measurment Unit): I2C-100Hz-DMA Interrupt
-BME280 Barometrik Sensör: I2C-100Hz-DMA Interrupt
-GPS (Global Position System): UART – 10Hz- DMA
-RC Kumanda: USART-100Hz-DMA / PPM-100Hz-Input Capture w/DMA
-2.4GHz Telemetri: USART-100Hz-DMA
-SD Kart Yazıcı/Okuyucu: SPI-1Hz Timer Interrupt-Normal Mod
-Debug and Serial Connection: Serial Wire 4 Pin / JTAG 5 Pin
+#### Uçuş Kontrol Yazılımında Bulunan Çevresel Bağlantı Elemanları ve Protokolleri:
+##### IMU (Inertial Measurment Unit): I2C-100Hz-DMA Interrupt
+##### BME280 Barometrik Sensör: I2C-100Hz-DMA Interrupt
+##### GPS (Global Position System): UART – 10Hz- DMA
+##### RC Kumanda: USART-100Hz-DMA / PPM-100Hz-Input Capture w/DMA
+##### 2.4GHz Telemetri: USART-100Hz-DMA
+##### SD Kart Yazıcı/Okuyucu: SPI-1Hz Timer Interrupt-Normal Mod
+##### Debug and Serial Connection: Serial Wire 4 Pin / JTAG 5 Pin
 
-### Bu makalede, uçuş kontrol yazılımımızın bir kısmı görüntülenebilmektedir. PID ve PD kontrol
-algoritmaları, Kalman Filtre Algoritmalarının bir kısmı, Hassas Konumlandırma Algoritmaları, Otonom
-iniş-kalkış algoritmaları vb. algoritmalar veri gizliliği sebebiyle bu makalede paylaşılmamıştır ve/veya
-detaylı bilgi verilmemiştir. Bilgi edinmek için iletişime geçiniz.
+##### Bu makalede, uçuş kontrol yazılımımızın bir kısmı görüntülenebilmektedir. PID ve PD kontrolalgoritmaları, Kalman Filtre Algoritmalarının bir kısmı, Hassas Konumlandırma Algoritmaları, Otonom iniş-kalkış algoritmaları vb. algoritmalar veri gizliliği sebebiyle bu makalede paylaşılmamıştır ve/veya detaylı bilgi verilmemiştir. Bilgi edinmek için iletişime geçiniz.

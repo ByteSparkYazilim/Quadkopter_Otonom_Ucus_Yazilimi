@@ -336,12 +336,12 @@ return z;
 ##### PID algoritması; temel olarak RC kumanda ve üzerinde yer alan 3 serbestlik dereceli +- 9DOF IMU sensörünün verilerinin kıyaslanması ile çalıştırılmaktadır. RC kumandadan gelen yönelim değerleri ile IMU verileri kıyaslanarak, insansız hava aracının olması gereken konum belirlenir. RC kumandaya müdahale edilmediği takdirde gelen veriler, insansız hava aracının asılı kalacağı değerler olarak belirlenmiş; +-15 derece yönelim açısı alacak şekilde optimize edilmiştir. YAW eksenindeki hareketin kontrolü için ise ivme kontrolü yapılarak PID algoritması hazırlanmıştır. Bu noktada kullanılan ölü bölge sayesinde, yüksek ivmeli değerler dışında tepki verilmemesi sağlanarak stabil uçuş elde edilmiştir. İrtifa kontrolü için hazırlanan sistem, BME280 barometrik sensöründen alınan irtifa verilerine göre hesaplanmakta olup, PD kontrol yöntemiyle hazırlanmıştır.
 
 #### Uçuş Kontrol Yazılımında Bulunan Çevresel Bağlantı Elemanları ve Protokolleri:
-##### IMU (Inertial Measurment Unit): I2C-100Hz-DMA Interrupt
-##### BME280 Barometrik Sensör: I2C-100Hz-DMA Interrupt
-##### GPS (Global Position System): UART – 10Hz- DMA
-##### RC Kumanda: USART-100Hz-DMA / PPM-100Hz-Input Capture w/DMA
-##### 2.4GHz Telemetri: USART-100Hz-DMA
-##### SD Kart Yazıcı/Okuyucu: SPI-1Hz Timer Interrupt-Normal Mod
-##### Debug and Serial Connection: Serial Wire 4 Pin / JTAG 5 Pin
+* IMU (Inertial Measurment Unit): I2C-100Hz-DMA Interrupt
+* BME280 Barometrik Sensör: I2C-100Hz-DMA Interrupt
+* GPS (Global Position System): UART – 10Hz- DMA
+* RC Kumanda: USART-100Hz-DMA / PPM-100Hz-Input Capture w/DMA
+* 2.4GHz Telemetri: USART-100Hz-DMA
+* SD Kart Yazıcı/Okuyucu: SPI-1Hz Timer Interrupt-Normal Mod
+* Debug and Serial Connection: Serial Wire 4 Pin / JTAG 5 Pin
 
 ##### Bu makalede, uçuş kontrol yazılımımızın bir kısmı görüntülenebilmektedir. PID ve PD kontrolalgoritmaları, Kalman Filtre Algoritmalarının bir kısmı, Hassas Konumlandırma Algoritmaları, Otonom iniş-kalkış algoritmaları vb. algoritmalar veri gizliliği sebebiyle bu makalede paylaşılmamıştır ve/veya detaylı bilgi verilmemiştir. Bilgi edinmek için iletişime geçiniz.

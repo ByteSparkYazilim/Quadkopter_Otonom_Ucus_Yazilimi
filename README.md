@@ -7,14 +7,14 @@
 
 ##### Yazılımın geliştirilme süreci için, ekibimiz tarafından 2 ayrı insansız hava aracı test düzeneği geliştirilmiştir. Test düzeneklerinin amacı, insansız hava araçlarının 3 serbestlik dereceli uzayda testlerinin gerçekleştirilebilmesi için güvenli ortam oluşturmak ve güç kaynağına bağlı testler gerçekleştirebilmektir. Geliştirilen bu insansız hava aracı test düzenekleri sayesinde yazılım tepki sonuçları, güvenli ortamda testlere sokularak dış çıktıları gözlemlenmiştir. Geliştirilen test düzeneklerinin 1. Versiyonu, ekibimiz üyesi Hüseyin Can Küçüksezer tarafından makale halinde yayımlanmıştır. 
 
-[Buraya tıklayarak ilgili makalenin tamamına erişebilirsiniz.]([https://recepaydogdu.notion.site/Object-Detection-with-OpenCV-102a12f84a0b4122a0bc3d1da30bc48c](https://dergipark.org.tr/tr/download/article-file/1786532)https://dergipark.org.tr/tr/download/article-file/1786532)
+[Buraya tıklayarak ilgili makalenin tamamına erişebilirsiniz.](https://recepaydogdu.notion.site/Object-Detection-with-OpenCV-102a12f84a0b4122a0bc3d1da30bc48c](https://dergipark.org.tr/tr/download/article-file/1786532)https://dergipark.org.tr/tr/download/article-file/1786532)
 
-##### (Gerçekleştirilen testler sırasında; üretilen düzeneklerin mekanik kayıpları, matematiksel analizlere
-dahil edilmiştir.)
+##### (Gerçekleştirilen testler sırasında; üretilen düzeneklerin mekanik kayıpları, matematiksel analizlere dahil edilmiştir.)
 
 
-###### 3 Serbestlik dereceli, ahşap malzemeden üretilmiş olan insansız hava aracı test düzeneği yapısı.
+##### 3 Serbestlik dereceli, ahşap malzemeden üretilmiş olan insansız hava aracı test düzeneği yapısı.
 https://github.com/ByteSparkYazilim/Quadkopter_Otonom_Ucus_Yazilimi/assets/145047961/7ab37f51-29ea-4004-95fb-82121700979f
+<a href="https://www.github.com" target="_blank">GitHub</a>
 
 ##### Ekibimizin üretmiş olduğu HUMA-H1 hegzakopter insansız hava aracının, KK2 uçuş kontrol kartı ile test mekanizması üzerinde kontrol edilmesi.
 https://github.com/ByteSparkYazilim/Quadkopter_Otonom_Ucus_Yazilimi/assets/145047961/0531f59b-5da5-4962-8dbb-eed7e80ec0d9

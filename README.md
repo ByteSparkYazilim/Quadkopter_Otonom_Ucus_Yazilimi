@@ -132,7 +132,7 @@ return motor1_guc_cikis;
 ##### Uçuş Kontrol Kartı çevresel birimlerinden alınan verilere Kalman filtresi uygulanarak parazitlerin giderilmesi ve hassasiyetin artırılması sağlanmıştır.
 
 ## BME280 Barometrik Sensör İçin Kalman Filtresi Uygulaması:
-```python
+```cpp
 #include &quot;KalmanBME280.h&quot;
 #include &quot;math.h&quot;
 

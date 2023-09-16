@@ -7,7 +7,7 @@
 
 ##### Yazılımın geliştirilme süreci için, ekibimiz tarafından 2 ayrı insansız hava aracı test düzeneği geliştirilmiştir. Test düzeneklerinin amacı, insansız hava araçlarının 3 serbestlik dereceli uzayda testlerinin gerçekleştirilebilmesi için güvenli ortam oluşturmak ve güç kaynağına bağlı testler gerçekleştirebilmektir. Geliştirilen bu insansız hava aracı test düzenekleri sayesinde yazılım tepki sonuçları, güvenli ortamda testlere sokularak dış çıktıları gözlemlenmiştir. Geliştirilen test düzeneklerinin 1. Versiyonu, ekibimiz üyesi Hüseyin Can Küçüksezer tarafından makale halinde yayımlanmıştır. 
 
-[Buraya tıklayarak ilgili makalenin tamamına erişebilirsiniz.](https://recepaydogdu.notion.site/Object-Detection-with-OpenCV-102a12f84a0b4122a0bc3d1da30bc48c](https://dergipark.org.tr/tr/download/article-file/1786532)https://dergipark.org.tr/tr/download/article-file/1786532)
+[Buraya tıklayarak ilgili makalenin tamamına erişebilirsiniz.](https://dergipark.org.tr/tr/download/article-file/1786532)
 
 ##### (Gerçekleştirilen testler sırasında; üretilen düzeneklerin mekanik kayıpları, matematiksel analizlere dahil edilmiştir.)
 

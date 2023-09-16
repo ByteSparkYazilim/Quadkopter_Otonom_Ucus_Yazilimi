@@ -125,7 +125,7 @@ return motor1_guc_cikis;
 }
 ```
 
-### Kontrol algoritmasından gelen matematiksel sonuçların, ESC’lerin sürüleceği frekansa ait doluluk oranı sınırlarının içerisinde kalması için, çıktılara sınırlama getirilmiştir.
+##### Kontrol algoritmasından gelen matematiksel sonuçların, ESC’lerin sürüleceği frekansa ait doluluk oranı sınırlarının içerisinde kalması için, çıktılara sınırlama getirilmiştir.
 
 ##### RC kumanda üzerinden okunan ve YAW eksenini kontrol eden kontrol çubuğundan gelen verilere,yazılımsal olarak ölü bölge tanımlanmıştır. Ölü bölge tanımı yapılmasının sebebi, insansız hava aracının YAW ekseninde 3-5 derece arasında normal kabul edilebilir sapmaları olmasıdır. (Kontrolalgoritması kullanılmadığı durumlarda) Bu sapmalar, PID kontrol algoritmasında çok yüksek D-kick durumları ortaya çıkartmaktadır. Bu sebeple RC kumanda ve Manyetometre sensörü arasında oluşan hassas farklar, matematiksel kontrol yöntemlerine dahil edilmemiştir. Ölü bölgenin hazırlanma sebebi, bu değerlerin devreden çıkartılmasıdır.
 

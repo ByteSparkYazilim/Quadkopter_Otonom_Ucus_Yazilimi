@@ -13,11 +13,12 @@
 
 
 ##### 3 Serbestlik dereceli, ahşap malzemeden üretilmiş olan insansız hava aracı test düzeneği yapısı.
-https://github.com/ByteSparkYazilim/Quadkopter_Otonom_Ucus_Yazilimi/assets/145047961/7ab37f51-29ea-4004-95fb-82121700979f
-
+https://github.com/ByteSparkYazilim/Quadkopter_Otonom_Ucus_Yazilimi/assets/145047961/53422cb9-074a-4fa8-bd2b-c573f615a97c
 
 ##### Ekibimizin üretmiş olduğu HUMA-H1 hegzakopter insansız hava aracının, KK2 uçuş kontrol kartı ile test mekanizması üzerinde kontrol edilmesi.
-https://github.com/ByteSparkYazilim/Quadkopter_Otonom_Ucus_Yazilimi/assets/145047961/0531f59b-5da5-4962-8dbb-eed7e80ec0d9
+https://github.com/ByteSparkYazilim/Quadkopter_Otonom_Ucus_Yazilimi/assets/145047961/a922c6d5-d118-451d-b0b6-512e35bbd901
+
+
 
 ##### Otonom Uçuş Kontrol Yazılımı Üzerinde Bulunan Başlıca Algoritmalar:
 
